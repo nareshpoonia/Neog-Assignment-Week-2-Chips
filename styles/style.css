@@ -1,0 +1,45 @@
+/* CSS reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Root */
+:root {
+  font-size: 62.5%;
+}
+
+/* Elements */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Utility Classes */
+
+/* Site Specific CSS */
+
+.chips-container {
+  display: flex;
+  background-color: green;
+  width: 60rem;
+  padding: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.chips {
+  background-color: white;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+.chips:hover {
+  background-color: green;
+  color: white;
+}
